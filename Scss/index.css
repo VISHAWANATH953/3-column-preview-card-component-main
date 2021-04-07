@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 70%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  border-radius: .5rem;
+  width: 90vw;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  overflow: hidden;
+}
+
+main .orange {
+  background: #e38826;
+}
+
+main .orange button {
+  background: #fff;
+  color: #e38826;
+}
+
+main .darksky {
+  background: #006970;
+}
+
+main .darksky button {
+  color: #006970;
+  background: #fff;
+}
+
+main .darkgreen {
+  background: #004241;
+}
+
+main .darkgreen button {
+  color: #004241;
+  background: #fff;
+  margin: 1.1rem 0 0;
+}
+
+main section {
+  width: 30vw;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding: 2rem;
+}
+
+main section p, main section button {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+main section p {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #ffffffbf;
+}
+
+main section button {
+  font-size: 0.8rem;
+  margin: 3rem 0 0;
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  border-radius: .6rem;
+}
+
+main section button:hover {
+  border: 0.1rem solid #f2f2f2;
+  background: transparent;
+  color: #f2f2f2;
+}
+
+main section h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 762px) {
+  html {
+    font-size: 65%;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 210vh;
+  }
+  main section {
+    width: 100%;
+    height: 66vh;
+  }
+}
+/*# sourceMappingURL=index.css.map */
